@@ -652,7 +652,7 @@ void EnginePrimeExportJob::run() {
         emit jobProgress(currProgress);
     }
 
-    qInfo() << "Engine Prime Export Job completed successfully";
+    qInfo() << "Engine DJ Export Job completed successfully";
     emit completed(m_trackRefs.size(), m_crateIds.size());
 }
 
